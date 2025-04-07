@@ -1,0 +1,1 @@
+# Country_touristspot_thai
