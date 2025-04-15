@@ -224,6 +224,48 @@
   font-size: 1.1rem;
   color: #555;
 }
+.highlights {
+  padding: 5rem 0;
+  background-color: #f9f9f9;
+}
+.highlights h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #005030;
+}
+.highlight-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+.card i {
+  font-size: 3rem;
+  color: #FFD700;
+  margin-bottom: 1.5rem;
+}
+
+.card h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #005030;
+}
+
+.card p {
+  color: #666;
+}
+
   @media (max-width: 768px) {
     .mobile-toggle {
       display: block;
