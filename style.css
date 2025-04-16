@@ -363,16 +363,61 @@ footer {
 .destinations-overview {
   padding: 5rem 0;
 }
-.travel-tips {
+.hidden-gems, .travel-tips {
   padding: 5rem 0;
   background-color: #f9f9f9;
 }
-.hidden-gems {
-  flex-direction: row-reverse;
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #005030;
 }
 
+.hidden-gems .about-content {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 3rem;
+}
+
+.hidden-gems .about-text h4 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #005030;
+}
+
+.hidden-gems .about-text p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.hidden-gems .about-image {
+  margin-bottom: 4rem;
+  flex: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+
+}
+
+.hidden-gems .about-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.5s ease;
+  object-fit: cover; 
+}
+.hidden-gems .about-image img:hover {
+  transform: scale(1.05);
+}
+
+
+
+
 @keyframes fadeInUp {
-  from {
+  from {  
       opacity: 0;
       transform: translateY(20px);
   }
@@ -382,7 +427,7 @@ footer {
   }
 }
 
-/* Media Queries */
+
 @media (max-width: 992px) {
   .about-content {
       flex-direction: column;
@@ -427,6 +472,13 @@ footer {
   
     .nav-menu a::after {
       display: none;
+    }
+    .hidden-gems .about-content {
+      flex-direction: column-reverse;
+    }
+    
+    .hidden-gems .about-image {
+      margin-bottom: 2rem;
     }
     
   }
