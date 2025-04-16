@@ -330,7 +330,46 @@ footer {
 
 /* Each pages css */
 
-
+.tourist-home{
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 100px 0 50px;
+    position: relative; 
+}
+.tourist-home {
+  background-image: url('images/Tourist-spots-background.png');
+}
+.tourist-home .container{
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+}
+.tourist-home h2 {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+  animation: fadeInUp 1s ease;
+  color: #005030;
+}
+.tourist-home p {
+  font-size: 1.2rem;
+    margin-bottom: 2rem;
+    animation: fadeInUp 1.2s ease;
+  color: #000;
+}
+.destinations-overview {
+  padding: 5rem 0;
+}
+.travel-tips {
+  padding: 5rem 0;
+  background-color: #f9f9f9;
+}
+.hidden-gems {
+  flex-direction: row-reverse;
+}
 
 @keyframes fadeInUp {
   from {
