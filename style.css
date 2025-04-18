@@ -330,7 +330,7 @@ footer {
 
 /* Each pages css */
 
-.tourist-home{
+.tourist-home, .culture-home, .restaurants-home, .hotels-home{
   background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -343,19 +343,19 @@ footer {
 .tourist-home {
   background-image: url('images/Tourist-spots-background.png');
 }
-.tourist-home .container{
+.tourist-home .container, .culture-home .container, .restaurants-home .container, .hotels-home .container{
   position: relative;
   z-index: 2;
   max-width: 800px;
 }
-.tourist-home h2 {
+.tourist-home h2, .culture-home h2, .restaurants-home h2, .hotels-home h2 {
   font-size: 3.5rem;
   margin-bottom: 1.5rem;
   animation: fadeInUp 1s ease;
   color: #005030;
 }
-.tourist-home p {
-  font-size: 1.2rem;
+.tourist-home p, .culture-home p, .restaurants-home p, .hotels-home p {
+  font-size: 1.5rem;
     margin-bottom: 2rem;
     animation: fadeInUp 1.2s ease;
   color: #000;
