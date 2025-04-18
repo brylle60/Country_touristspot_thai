@@ -342,6 +342,13 @@ footer {
 }
 .tourist-home {
   background-image: url('images/Tourist-spots-background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hotels-home {
+  background-image: url('images/hotel-bg.png');
+  
 }
 .tourist-home .container, .culture-home .container, .restaurants-home .container, .hotels-home .container{
   position: relative;
@@ -401,7 +408,7 @@ footer {
   color: #555;
 }
 
-.hidden-gems .about-image {
+.hidden-gems .about-image, .hotel-tips .about-image {
   margin-bottom: 4rem;
   flex: 1;
   border-radius: 10px;
