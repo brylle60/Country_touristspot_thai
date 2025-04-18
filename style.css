@@ -360,10 +360,10 @@ footer {
     animation: fadeInUp 1.2s ease;
   color: #000;
 }
-.destinations-overview {
+.destinations-overview, .culture-overview, .cuisine-overview , .hotels-overview{
   padding: 5rem 0;
 }
-.hidden-gems, .travel-tips {
+.hidden-gems, .travel-tips, .hotel-tips, .restaurant-recommendations, .cultural-etiquette {
   padding: 5rem 0;
   background-color: #f9f9f9;
 }
@@ -374,20 +374,28 @@ footer {
   color: #005030;
 }
 
-.hidden-gems .about-content {
+.cultural-etiquette .about-content,
+.hotel-tips .about-content,
+.restaurant-recommendations .about-content,
+.hidden-gems .about-content  {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
   gap: 3rem;
 }
 
-.hidden-gems .about-text h4 {
+.hidden-gems .about-text h4, .cultural-etiquette .about-tex h4,
+.hotel-tips .about-text h4,
+.restaurant-recommendations .about-text h4 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
   color: #005030;
 }
 
-.hidden-gems .about-text p {
+
+.hidden-gems .about-text p, .cultural-etiquette .about-tex p,
+.hotel-tips .about-text p,
+.restaurant-recommendations .about-text p {
   margin-bottom: 1rem;
   font-size: 1.1rem;
   color: #555;
