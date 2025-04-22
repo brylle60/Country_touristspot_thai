@@ -341,17 +341,17 @@ footer {
     position: relative; 
 }
 .tourist-home {
-  background-image: url('images/Tourist-spots-background.png');
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('images/Tourist-spots-background.png');
 }
 .hotels-home {
-  background-image: url('images/hotel-bg.png');
+ background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('images/hotel-bg.png');
   
 }
 .restaurants-home {
-  background-image: url('images/rest-bg.png');
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('images/rest-bg.png');
 }
 .culture-home {
-  background-image: url('images/culture-bg.png');
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('images/culture-bg.png');
 }
 .tourist-home .container, .culture-home .container, .restaurants-home .container, .hotels-home .container{
   position: relative;
@@ -362,7 +362,7 @@ footer {
   font-size: 3.5rem;
   margin-bottom: 1.5rem;
   animation: fadeInUp 1s ease;
-  color: #005030;
+  color: #10a76a;
 }
 .restaurants-home p {
   font-size: 1.5rem;
@@ -374,7 +374,7 @@ footer {
   font-size: 1.5rem;
     margin-bottom: 2rem;
     animation: fadeInUp 1.2s ease;
-  color: #000;
+  color: #ffffff;
 }
 .destinations-overview, .culture-overview, .cuisine-overview , .hotels-overview{
   padding: 5rem 0;
