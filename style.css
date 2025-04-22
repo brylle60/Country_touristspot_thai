@@ -342,13 +342,16 @@ footer {
 }
 .tourist-home {
   background-image: url('images/Tourist-spots-background.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .hotels-home {
   background-image: url('images/hotel-bg.png');
   
+}
+.restaurants-home {
+  background-image: url('images/rest-bg.png');
+}
+.culture-home {
+  background-image: url('images/culture-bg.png');
 }
 .tourist-home .container, .culture-home .container, .restaurants-home .container, .hotels-home .container{
   position: relative;
@@ -361,7 +364,13 @@ footer {
   animation: fadeInUp 1s ease;
   color: #005030;
 }
-.tourist-home p, .culture-home p, .restaurants-home p, .hotels-home p {
+.restaurants-home p {
+  font-size: 1.5rem;
+    margin-bottom: 3rem;
+    animation: fadeInUp 1.2s ease;
+  color: #ffffff;
+}
+.tourist-home p, .culture-home p, .hotels-home p {
   font-size: 1.5rem;
     margin-bottom: 2rem;
     animation: fadeInUp 1.2s ease;
@@ -391,7 +400,7 @@ footer {
   gap: 3rem;
 }
 
-.hidden-gems .about-text h4, .cultural-etiquette .about-tex h4,
+.hidden-gems .about-text h4, .cultural-etiquette .about-text h4,
 .hotel-tips .about-text h4,
 .restaurant-recommendations .about-text h4 {
   font-size: 2rem;
@@ -408,7 +417,7 @@ footer {
   color: #555;
 }
 
-.hidden-gems .about-image, .hotel-tips .about-image {
+.hidden-gems .about-image, .restaurant-recommendations .about-image, .cultural-etiquette .about-image{
   margin-bottom: 4rem;
   flex: 1;
   border-radius: 10px;
@@ -417,13 +426,15 @@ footer {
 
 }
 
-.hidden-gems .about-image img {
+
+.hidden-gems .about-image img , .restaurant-recommendations .about-image img, .cultural-etiquette .about-image img{
   width: 100%;
   height: auto;
   display: block;
   transition: transform 0.5s ease;
   object-fit: cover; 
 }
+
 .hidden-gems .about-image img:hover {
   transform: scale(1.05);
 }
